@@ -1,0 +1,10 @@
+{
+  "home": {
+    "welcome": "Welcome to my Next.js starter home page!",
+    "description": "This page was created using TypeScript and React."
+  },
+  "about": {
+    "heading": "About Us",
+    "content": "We are a company that specializes in creating amazing web applications."
+  }
+}

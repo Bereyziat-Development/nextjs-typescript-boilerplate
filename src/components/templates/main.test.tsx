@@ -1,11 +1,11 @@
 import { render, screen, within } from '@testing-library/react';
 
-import { Main } from './Main';
+import { MainTemplate } from './main.template';
 
-describe('Main template', () => {
+describe('MainTemplate template', () => {
   describe('Render method', () => {
     it('should have 3 menu items', () => {
-      render(<Main meta={null}>{null}</Main>);
+      render(<MainTemplate meta={null}>{null}</MainTemplate>);
 
       const menuItemList = screen.getAllByRole('listitem');
 
@@ -13,7 +13,7 @@ describe('Main template', () => {
     });
 
     it('should have a link to support creativedesignsguru.com', () => {
-      render(<Main meta={null}>{null}</Main>);
+      render(<MainTemplate meta={null}>{null}</MainTemplate>);
 
       const copyrightSection = screen.getByText(/© Copyright/);
       const copyrightLink = within(copyrightSection).getByRole('link');

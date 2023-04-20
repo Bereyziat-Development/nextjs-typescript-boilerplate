@@ -1,4 +1,4 @@
-# Boilerplate and Starter for Next JS 13+, Tailwind CSS 3.3 and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+# Boilerplate and Starter for Next JS 13+, Tailwind CSS 3.3 and TypeScript 
 
 Boilerplate repository for all the Next.js project on Bereyziat Development organization.
 
@@ -81,7 +81,7 @@ Open http://localhost:3000 with your favorite browser to see your project.
 │   ├── pages                       # Next JS Pages
 │   ├── modules                     # Next JS Pages tests (this avoids tests to be treated as a Next.js pages)
 │   ├── styles                      # Styles folder
-│   ├── contexts                    # Default template
+│   ├── context                    # Default template
 │   └── shared                      # Utility functions
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration
@@ -93,8 +93,8 @@ You can easily configure Next js Boilerplate by making a search in the whole pro
 
 - `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your next website favicon, you can generate from https://favicon.io/favicon-converter/
 - `src/styles/global.css`: your CSS file using Tailwind CSS
-- `src/utils/AppConfig.ts`: configuration file
-- `src/templates/Main.tsx`: default theme
+- `src/utils/app-config.ts`: configuration file
+- `src/templates/main.template.tsx`: default theme
 - `next-sitemap.config.js`: sitemap configuration
 
 You have access to the whole code source if you need further customization. The provided code is only example for you to start your project. The universe is the limit my friend 🚀.

@@ -1,14 +1,14 @@
-import Link from 'next/link';
 import type { ReactNode } from 'react';
+import Link from 'next/link';
 
-import { AppConfig } from '@/utils/AppConfig';
+import { AppConfig } from '@/shared/utils/app-config';
 
 type IMainProps = {
   meta: ReactNode;
   children: ReactNode;
 };
 
-const Main = (props: IMainProps) => (
+const MainTemplate = (props: IMainProps) => (
   <div className="w-full px-1 text-gray-700 antialiased">
     {props.meta}
 
@@ -62,16 +62,10 @@ const Main = (props: IMainProps) => (
 
       <footer className="border-t border-gray-300 py-8 text-center text-sm">
         © Copyright {new Date().getFullYear()} {AppConfig.title}. Made with{' '}
-        <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>.
-        {/*
-         * PLEASE READ THIS SECTION
-         * I'm an indie maker with limited resources and funds, I'll really appreciate if you could have a link to my website.
-         * The link doesn't need to appear on every pages, one link on one page is enough.
-         * For example, in the `About` page. Thank you for your support, it'll mean a lot to me.
-         */}
+        <a href="https://bereyziat.dev">Bereyziat Development</a>.
       </footer>
     </div>
   </div>
 );
 
-export { Main };
+export { MainTemplate };
