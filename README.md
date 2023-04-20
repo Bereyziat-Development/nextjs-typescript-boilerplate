@@ -1,4 +1,4 @@
-# Boilerplate and Starter for Next JS 13+, Tailwind CSS 3.3 and TypeScript 
+# Boilerplate and Starter for Next JS 13+, Tailwind CSS 3.3 and TypeScript
 
 ![nextjs-typescript-boilerplate](https://socialify.git.ci/Bereyziat-Development/nextjs-typescript-boilerplate/image?language=1&name=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)
 
