@@ -1,6 +1,13 @@
 # Boilerplate and Starter for Next JS 13+, Tailwind CSS 3.3 and TypeScript 
 
-Boilerplate repository for all the Next.js project on Bereyziat Development organization.
+![nextjs-typescript-boilerplate](https://socialify.git.ci/Bereyziat-Development/nextjs-typescript-boilerplate/image?language=1&name=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)
+
+
+`nextjs-typescript-boilerplate` is a pre-configured starter kit for internal developers at Bereyziat Development organization who want to build Next.js applications with TypeScript. It provides a clean project structure with all the necessary dependencies and configurations, so you can start developing your app right away without worrying about the initial setup.
+
+The boilerplate includes pages, components, styles, and assets that follow best practices and internal guidelines. It also comes with helpful scripts and tools for developing, testing, and deploying your app, so you can focus on building high-quality features and delivering value to users.
+
+Whether you're new to Next.js or an experienced developer, `nextjs-typescript-boilerplate` can help you get started quickly and efficiently, and provide a solid foundation for your next project.
 
 
 ### Features
