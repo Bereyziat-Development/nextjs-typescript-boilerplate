@@ -76,22 +76,23 @@ npm run dev
 Open http://localhost:3000 with your favorite browser to see your project.
 
 ```shell
-.
-├── README.md                       # README file
-├── __mocks__                       # Mocks function for testing purposes
-├── .github                         # GitHub folder for Continuous Integration adn Continuous Deployment
-├── .husky                          # Husky configuration
-├── .vscode                         # VSCode configuration
-├── public                          # Public assets folder
+├── README.md              # README file
+├── public                 # Public assets folder
 ├── src
-│   ├── components                  # Layouts components
-│   ├── pages                       # Next JS Pages
-│   ├── modules                     # Next JS Pages tests (this avoids tests to be treated as a Next.js pages)
-│   ├── styles                      # Styles folder
-│   ├── context                    # Default template
-│   └── shared                      # Utility functions
-├── tailwind.config.js              # Tailwind CSS configuration
-└── tsconfig.json                   # TypeScript configuration
+│   ├── components         # Reusable components: Layouts, Templates, Shared components, Screens.
+│   ├── context            # Global context providers
+│   ├── pages              # Next.js pages
+│   ├── shared             # Utility functions and constants
+│   ├── assets             # Global styles and images used in the project
+│   └── models             # Type definitions and interfaces
+├── __mocks__              # Mocks function for testing purposes
+├── .github                # GitHub folder for Continuous Integration and Continuous Deployment
+├── .husky                 # Husky configuration
+├── .vscode                # VSCode configuration
+├── next.config.js         # Next.js configuration
+├── package.json           # Node.js package manager file
+├── tailwind.config.js     # Tailwind CSS configuration
+└── tsconfig.json          # TypeScript configuration
 ```
 
 ### Customization
