@@ -9,8 +9,8 @@ interface Props {
 export default function Seo(props: Props) {
   const router = useRouter();
   const meta = {
-    title: 'Next.js Tailwind Starter',
-    site_name: 'Next.js Tailwind Starter',
+    title: 'Next.js TypeScript Tailwind',
+    site_name: 'Next.js TypeScript Tailwind',
     description: 'A template for Next.js and Tailwindcss by Muhammad Zourdy',
     url: 'https://bereydev.dev',
     image: '',
@@ -53,7 +53,7 @@ export default function Seo(props: Props) {
           <meta
             name="author"
             property="article:author"
-            content="Theodorus Clarence"
+            content="TypeScript Tailwind"
           />
         </>
       )}
